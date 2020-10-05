@@ -69,3 +69,40 @@ Azure features
 
 #### Data Lake Analytics:
 *   Azure Data Lake Analytics is a distributed, cloud-based data processing architecture offered by Microsoft in the Azure cloud. iT is based on YARN, the same as the open-soruce Hadoop platform. It pairs with Azure Data Lake store, a cloud-based storage platform designed for Big Data analytics.
+
+## Core Azure Services - AI + Machine Learning:
+
+ ![](./images/AI_MachineLearning/AI_MachineLearning0.PNG)
+
+#### Cognitive Services:
+*   Azure Cognitive Services are APIs, SDKs and Services available to help developers build intelligent applications without having direct AI or data science skills or knowledge. Azure Cognitive Services enable developers to easily add cognitive features into their applications.
+
+#### Bot Services:
+*   Azure Bot Services is Microsoft artficial intelligence (AI) chatbit offered as a service on the Azure cloud service marketplace. Azure Bot Services offers the ability to add intelligent agents that are capable of conversation without having to commit the resources to develop ones own AI.
+
+#### Machine Learning Studio:
+* Azure Machine Learning Studio us a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data. Machine Learning Studio publishes meodels as web services that can easily be consumed by custom apps or BI tools such as Excel.
+
+## Core Azure Services - Identity:
+ ![](./images/Identity/Identity0.PNG)
+
+
+#### Azure Active Directive:
+*   Azure Active Directive __`(aka Azure AD)`__ is a fully managed multi-tenant service from Microsoft that offers identity and access capabilities for applications running in Microsoft Azure and for applications running in an on-premises environment.
+
+
+## Core Azure Services - Management:
+ ![](./images/Management/Management0.PNG)
+
+#### Log Analytics:
+*   Log data collected by Azure Monitor is stored in a __`Log Analytics workspace`__, which is based on Azure Data Explorer. It collects telemetry from a variety of sorurces and uses the Kusto query language used by Data Explorer to retrieve and analyze data.
+
+#### Cost Management + Billing:
+*   Azure Cost Management is a native Azure cost Management solution. It helps you analyze costs, create and manage budgets, export datam and review and act ib optimization recomendations to save money.
+
+#### Automation Account:
+*   Azure Automation delivers a cloud-based automation and configuration service that provides consistent management across your Azure and non -Azure environments. It consists of process automation, update management, and configuration features.
+
+#### Metrics:
+
+
