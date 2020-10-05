@@ -5,7 +5,7 @@ Azure features
 
 
 ## Core Azure Services - Storage:
- ![](./images/AzureBlogStorage-0.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-0.PNG)
 #### Bolb:
 *   Azure Bolg Storage is a service for storing large amounts of unstructured object data, such as text or binary data. Common uses of Blob Storage include: Serving  images or documents directly to a browser. Storing files for distributed access.Streaming video and audio.
 
@@ -27,18 +27,45 @@ Azure features
 
 ###### Hands-On Azure Bolg Storage
 
- ![](./images/AzureBlogStorage-1.PNG)
- ![](./images/AzureBlogStorage-2.PNG)
- ![](./images/AzureBlogStorage-3.PNG)
- ![](./images/AzureBlogStorage-4.PNG)
- ![](./images/AzureBlogStorage-5.PNG)
- ![](./images/AzureBlogStorage-6.PNG)
- ![](./images/AzureBlogStorage-7.PNG)
- ![](./images/AzureBlogStorage-8.PNG)
- ![](./images/AzureBlogStorage-9.PNG)
- ![](./images/AzureBlogStorage-10.PNG)
- ![](./images/AzureBlogStorage-11.PNG)
- ![](./images/AzureBlogStorage-12.PNG)
- ![](./images/AzureBlogStorage-13.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-1.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-2.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-3.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-4.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-5.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-6.PNG)
+ -  Here Container are kind of Root folders for Blogs. Create a container and inside upload the Blob files
+ ![](./images/AzureBlogStorage/AzureBlogStorage-7.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-8.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-9.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-10.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-11.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-12.PNG)
+ ![](./images/AzureBlogStorage/AzureBlogStorage-13.PNG)
+ -  Here you can choose the access type of the containers
  ![](./images/AzureBlogStorage-14.PNG)
  ![](./images/AzureBlogStorage-15.PNG)
+
+
+## Core Azure Services - Database + Analytics:
+ ![](./images/DB_Anlytics/DB_Anlytics0.PNG)
+
+
+#### SQL Database:(PaaS):
+* Azure SQL Database is an intelligent, scalable, cloud database service that provides the broadest SQL Server engine compatibilty and upto 212% return on investment.
+* Azure SQL Database which is Database as a Service, do not get access to OS on which this Database is installed. Get only access to the DB paltform(PaaS Platform As A Service). 
+
+#### CosmosDB:
+*  Azure Cosmos DB is a fully managed DB service with turnkey global distribution and transperant multi-master replication. Get single-digit millisecond read and write latencies at the 99th percentile, automatic and elastic scaling of throghtput and storage.
+*  If we launch the Cosmos DB cluster, it creates a replica of DataBase in multiple regions as we specify. We can enable / disable the DB replication on 1 click on the specific region.
+
+#### Data Factory:
+*   Azure Data Factory service is a fully managed service for composing data storage, processing, and movement services into streamlined, scalable, and reliable data production pipelines. 
+*   It is basically ETL service (Abstract Transform & Load service) which basically takes data from multiple sources and tranform (Un Structured Data to Structured Data) data accordingly to coded in application.
+*   Suppose if we have millions rows of data, its difficult to read all the data to understand/analyze, So we need to use BI (Busineess Intelligence) applications. It will quickly create the patterns or graphs etc.. which will help to analyze the data quickly.
+* Data Factory helps to integrate lot of BI tools like `Power BI, Tablue, etc...`
+
+#### Event Hubs:
+*   Event Hubs is fully managed, real-time data ingestion service that is simple, trusted and scalable. Stream millions of events per second from any source to build dynamic data pipelines and immediately respond to business challenges.
+
+#### Data Lake Analytics:
+*   Azure Data Lake Analytics is a distributed, cloud-based data processing architecture offered by Microsoft in the Azure cloud. iT is based on YARN, the same as the open-soruce Hadoop platform. It pairs with Azure Data Lake store, a cloud-based storage platform designed for Big Data analytics.
