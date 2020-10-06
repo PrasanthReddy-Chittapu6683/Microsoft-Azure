@@ -92,7 +92,7 @@ Azure features
 
 
 ## Core Azure Services - Management:
- ![](./images/Management/Management0.PNG)
+ ![](./images/Management/Management0.PN  G)
 
 #### Log Analytics:
 *   Log data collected by Azure Monitor is stored in a __`Log Analytics workspace`__, which is based on Azure Data Explorer. It collects telemetry from a variety of sorurces and uses the Kusto query language used by Data Explorer to retrieve and analyze data.
@@ -104,5 +104,78 @@ Azure features
 *   Azure Automation delivers a cloud-based automation and configuration service that provides consistent management across your Azure and non -Azure environments. It consists of process automation, update management, and configuration features.
 
 #### Metrics:
+*  Metrics are available for interactive analysis in the Azure portal whith Metrics Explorer. They can be added to an Azure dashboard for visualization in combination with other data and used for near-real time alerting. Read more about Azure Monitor. Metrics including their sources of data in Metrics in Azure Monitor.
+
+## What is Azure DNS (Domain Name System):
+ ![](./images/DNS/DNS1.PNG)
+
+
+*   The Domain Name System  or DNS is responsible for translating a website or service name to its IP address.
+*   Azure DNS is hosting service for DNS domains, providing name resolution using Microsoft Azure infrastructure.
+*   By hosting your domains in Azure, you can manage your DNS.
+*   Azure DNS also supports private DNS domains.
+
+##  Azure DNS Features(Domain Name System):
+
+##### Reliability and Preformance:
+    -  DNS domains in Azure DNS are hosted on Azures global network of DNS name servers.
+    -  Azure DNS uses ancast networking so that each DNS query is answered by the closest available DNS server.
+    -  This provides both fast performance and high availability for your domain.
+
+##### Seamless Integration:
+    -  THe Azure DNS service can be used to manage DNS records for your Azure services and can be used to provide DNS for your expternal resources as well.
+
+##### Security:
+    -  The Azure DNS service is based on Azure Resource Manager.
+    -  Your domains and records can be managed via Azure protal, Azure powershell cmdlets, and the cross-platform Azure CLI.
+
+##  Azure DNS: Domain (Overview)
+
+*   The DNS is a hierarchy of domains.
+*   The hierarchy starts from the `root` domain, whose name is simply '.' .
+    *   Top-level domains, such as 'com','net','org','uk' or 'jp'.
+    *   Then are second-level domainsm such as 'org.uk' or 'co.jp'.
+*   The Domains is the DNS heirarchy are globally distributed, hosted by DNS name servers around the world.
+*   A domain name registrar is an organization that allows you to purchanse a domain name, such as 'contoso.com'.
+*   Azure DNS provides a globally distributed, hight-availblity names server infrastructure, which you can use to host your domain.
+*   By hosting your domains in Azure DNS, you can manage your DNS records.
+*   Azure DNS doesnot currently supprot purchasing of domain names. If you want to purchase domains, you need to use a third-party domain name registrar.
+
+##  Azure DNS Zones:
+
+* Azure DNS is used to host the DNS records for a particular domains.
+* To start hosting your domain in Azure DNS, you need to create a DNS zone for that domain name.
+* Each DNS record for your domain is then created inside this DNS zone.
+* Exanple:
+    -  The domain 'contoso.com' may contain several DNS records, such as 'mail.contoso.com'(for a mail server) and 'www.contoso.com'(for a website)
+*  When creating a DNS zone in Auzre DNS:
+    - The name of the zone mush be unique with in the resoirce group, and zone must not exist already.
+    - The same zone name can be reused in different resource group or a different azure subscription.
+    - Where multiple zones share the same name, each instance is assigned different name server addresses.
+    - Only one set of addresses can be configured with the domain name registrar.
+
+
+##  Azure DNS Records:
+ ![](./images/DNS/DNS2.PNG)
+
+##  Azure DNS Records Types:
+ ![](./images/DNS/DNS3.PNG)
+
+##  Azure DNS : Private Domainsm
+ ![](./images/DNS/DNS4.PNG)
+
+
+##  Identity Management & Azure Active Directory
+
+#### What is Active Direcory?
+*   Active Directory is used to store and organize information about various elements of an organizations network such as computers, usersm resources like printers, shared files or folders.
+     ![](./images/ActiveDirectory/ActiveDirectory1.PNG)
+*   Active directory information can be used to authenticate and authrize the users, computers, resources that are part of the organizations network.
+     ![](./images/ActiveDirectory/ActiveDirectory2.PNG)
+*  Azure Active Directory (Azure AD) is the identity management solution for Azure. It is a live directory or a database that sores user accounts and their passwords, computers, files shares, security groups, permissions and si much more.
+*   Azure acitve directory is Microsoft's multi tenant, identity solution for Azure. Azure AD is a one stop solution for core directory services for cloud, application access management and identity authentications solutions.
+
+
+
 
 
